@@ -1,0 +1,10 @@
+CODE_SIGN_STYLE                             = Manual
+
+DEVELOPMENT_CODE_SIGN_IDENTITY              = Apple Development
+STAGE_CODE_SIGN_IDENTITY                    = $(DEVELOPMENT_CODE_SIGN_IDENTITY)
+RELEASE_CODE_SIGN_IDENTITY                  = Apple Distribution
+
+// BUILD DEFINITION
+DEVELOPMENT_APP_BUILD_DEFINITION            = DEBUG
+STAGE_APP_BUILD_DEFINITION                  = STAGE
+RELEASE_APP_BUILD_DEFINITION                = RELEASE
