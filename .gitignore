@@ -88,3 +88,10 @@ fastlane/test_output
 # https://github.com/johnno1962/injectionforxcode
 
 iOSInjectionProject/
+.DS_Store
+SupportFiles/XCConfigs/UniversalLink/Universal-Base.xcconfig
+SupportFiles/XCConfigs/DeferedDeepLink/DeferedDeepLink-Base.xcconfig
+SupportFiles/XCConfigs/DeepLink/DeepLink-Base.xcconfig
+SupportFiles/InfoPlist/.DS_Store
+*.mobileprovision
+/Provisioning
