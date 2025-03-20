@@ -1,10 +1,9 @@
 import SwiftUI
 
 public struct ContentView: View {
-    public init() {}
-
+    @EnvironmentObject var appState: AppState
     public var body: some View {
-        Text("Hello, World!")
+        Text("\(appState.currentDeepLink.name)")
             .padding()
     }
 }
